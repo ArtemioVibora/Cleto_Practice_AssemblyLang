@@ -1,0 +1,28 @@
+*.o
+*.obj
+*.bin
+
+# Ignore common executable files
+a.out      
+*.exe      
+*.com      
+
+# Ignore assembler/linker listing and map files
+*.lst      
+*.map      
+
+# Ignore temporary files created by editors/IDE's
+*~
+\#*\#
+.*.swp
+
+# Ignore build directories (if you put generated files in a specific dir)
+# e.g., /build/
+# /bin/
+
+# Ignore common IDE/Editor specific files and directories
+.vscode/
+.idea/
+*.sublime-project
+*.kdev4
+*.kdevelop
